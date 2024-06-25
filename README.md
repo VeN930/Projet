@@ -44,30 +44,18 @@ CODE/sshbrut.py : Script pour effectuer des attaques par force brute SSH.
 NEED/password.txt : Liste de mots de passe pour les tests de force brute.
 NEED/user.txt : Liste de noms d'utilisateur pour les tests de force brute.
 
-## Utilisation des scripts
+## Rappel pour les script ScanMachine et brute force SSH
 
-- Scan RustScan
-Pour lancer un scan RustScan et générer un rapport PDF :
-Mettez à jour le fichier CODE/rustscan_scan.py avec les informations de configuration nécessaires.
-Exécutez le script :
-python CODE/rustscan_scan.py
-
-- Scan OpenVAS
-Pour lancer un scan OpenVAS et générer un rapport PDF :
-Mettez à jour le fichier CODE/ScanMachine.py avec les informations de configuration nécessaires suivant si nécéssaire :
+- Mettez à jour le fichier CODE/ScanMachine.py avec les informations de configuration nécessaires suivant si nécéssaire :
   - "openvas_socket"
   - "openvas_username"
   - "openvas_password"
   - "scanner_id"
     
-Exécutez le script :
-python CODE/main.py
 
-- Attaque par force brute SSH
-Pour effectuer une attaque par force brute SSH :
-Assurez-vous que les fichiers NEED/user.txt et NEED/password.txt contiennent les noms d'utilisateur et mots de passe à tester.
-Exécutez le script CODE/sshbrut.py :
-python CODE/sshbrut.py
+- Attaque par force brute SSH :
+  - Assurez-vous que les fichiers NEED/user.txt et NEED/password.txt contiennent les noms d'utilisateur et mots de passe à tester.
+
 
 ## Avertissement
 Utilisez ces outils uniquement sur des systèmes pour lesquels vous avez l'autorisation explicite de tester la sécurité. Toute utilisation non autorisée est illégale et contraire à l'éthique.
