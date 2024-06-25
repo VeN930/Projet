@@ -23,11 +23,11 @@ pip install reportlab
 pip install gvm lxml
 pip install paramiko
 
-RustScan
+- RustScan :
 Installez RustScan avec la commande suivante :
 `sudo apt-get install rustscan`
 
-OpenVAS
+- OpenVAS :
 Pour installer OpenVAS, suivez les instructions détaillées dans les liens suivants :
 
 Guide d'installation OpenVAS sur Kali Linux :
