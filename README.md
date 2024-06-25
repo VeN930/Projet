@@ -1,2 +1,78 @@
-# Projet
-Projet Toolbox Benjamin
+Toolbox Projet
+Ce projet contient une série d'outils pour effectuer des scans de sécurité, des attaques par force brute SSH, et générer des rapports PDF des résultats de scans. Ce guide vous expliquera comment installer et utiliser chaque script.
+
+## Prérequis
+Python 3.11.8 recommandé
+Assurez-vous d'avoir Python 3.11.8 installé sur votre système.
+
+- Dépendances Python :
+  - `reportlab`
+  - `gvm`
+  - `lxml`
+  - `paramiko`
+- Outils externes :
+  - `rustscan`
+  - `openvas`
+
+
+Dépendances Python
+Installez les bibliothèques Python nécessaires avec les commandes suivantes :
+pip install reportlab
+pip install gvm lxml
+pip install paramiko
+
+RustScan
+Installez RustScan avec la commande suivante :
+
+sudo apt-get install rustscan
+OpenVAS
+Pour installer OpenVAS, suivez les instructions détaillées dans les liens suivants :
+
+Guide d'installation OpenVAS sur Kali Linux :
+
+https://www.ceos3c.com/security/install-openvas-kali-linux/
+https://www.youtube.com/watch?v=OUiRTv4Q80c
+
+## Structure du projet :
+
+main.py : Script principal pour le scan OpenVAS.
+CODE/passwordtest.py : Script de test des mots de passe.
+CODE/rustscan_scan.py : Script pour lancer et traiter les scans RustScan.
+CODE/ScanMachine.py : Script de gestion de la machine de scan.
+CODE/sshbrut.py : Script pour effectuer des attaques par force brute SSH.
+NEED/password.txt : Liste de mots de passe pour les tests de force brute.
+NEED/user.txt : Liste de noms d'utilisateur pour les tests de force brute.
+
+## Utilisation des scripts
+
+- Scan RustScan
+Pour lancer un scan RustScan et générer un rapport PDF :
+Mettez à jour le fichier CODE/rustscan_scan.py avec les informations de configuration nécessaires.
+Exécutez le script :
+python CODE/rustscan_scan.py
+
+- Scan OpenVAS
+Pour lancer un scan OpenVAS et générer un rapport PDF :
+Mettez à jour le fichier CODE/ScanMachine.py avec les informations de configuration nécessaires suivant si nécéssaire :
+  - "openvas_socket"
+  - "openvas_username"
+  - "openvas_password"
+  - "scanner_id"
+    
+Exécutez le script :
+python CODE/main.py
+
+- Attaque par force brute SSH
+Pour effectuer une attaque par force brute SSH :
+Assurez-vous que les fichiers NEED/user.txt et NEED/password.txt contiennent les noms d'utilisateur et mots de passe à tester.
+Exécutez le script CODE/sshbrut.py :
+python CODE/sshbrut.py
+
+## Avertissement
+Utilisez ces outils uniquement sur des systèmes pour lesquels vous avez l'autorisation explicite de tester la sécurité. Toute utilisation non autorisée est illégale et contraire à l'éthique.
+
+Auteur
+Benjamin GHAZANI
+
+Licence
+GNU General Public License v3.0
