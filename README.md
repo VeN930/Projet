@@ -2,8 +2,9 @@ Toolbox Projet
 Ce projet contient une série d'outils pour effectuer des scans de sécurité, des attaques par force brute SSH, et générer des rapports PDF des résultats de scans. Ce guide vous expliquera comment installer et utiliser chaque script.
 
 ## Prérequis
-Python 3.11.8 recommandé
-Assurez-vous d'avoir Python 3.11.8 installé sur votre système.
+
+Kali Linux 024.1 (recommandation)
+Python 3.11.8 (recommandation)
 
 - Dépendances Python :
   - `reportlab`
@@ -36,13 +37,15 @@ https://www.youtube.com/watch?v=OUiRTv4Q80c
 
 ## Structure du projet :
 
-main.py : Script principal pour le scan OpenVAS.
-CODE/passwordtest.py : Script de test des mots de passe.
-CODE/rustscan_scan.py : Script pour lancer et traiter les scans RustScan.
-CODE/ScanMachine.py : Script de gestion de la machine de scan.
-CODE/sshbrut.py : Script pour effectuer des attaques par force brute SSH.
-NEED/password.txt : Liste de mots de passe pour les tests de force brute.
-NEED/user.txt : Liste de noms d'utilisateur pour les tests de force brute.
+  - main.py : Script principal pour le scan OpenVAS.
+  - CODE/passwordtest.py : Script de test des mots de passe.
+  - CODE/rustscan_scan.py : Script pour lancer et traiter les scans RustScan.
+  - CODE/ScanMachine.py : Script de gestion de la machine de scan.
+  - CODE/sshbrut.py : Script pour effectuer des attaques par force brute SSH.
+  - NEED/password.txt : Liste de mots de passe pour les tests de force brute.
+  - NEED/user.txt : Liste de noms d'utilisateur pour les tests de force brute.
+
+Pour lancer la toolbox, exécutez simplement le main.py. RAPPEL : SI VOUS AVEZ INSTALLÉ LA TOOLBOX DANS UN AUTRE EMPLACEMENT QUE LE BUREAU DE L'UTILISATEUR KALI, MODIFIEZ LES DIFFÉRENTS CHEMINS DES SCRIPTS.
 
 ## Rappel pour les script ScanMachine et brute force SSH
 
