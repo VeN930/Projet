@@ -9,7 +9,7 @@ Python 3.11.8 (recommandation)
 
 - Dépendances Python :
   - `reportlab`
-  - `gvm`
+  - `gvm` (normalement compris avec l'installation d'OpenVas)
   - `lxml`
   - `paramiko`
 - Outils externes :
