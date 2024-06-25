@@ -25,8 +25,8 @@ pip install paramiko
 
 RustScan
 Installez RustScan avec la commande suivante :
+`sudo apt-get install rustscan`
 
-sudo apt-get install rustscan
 OpenVAS
 Pour installer OpenVAS, suivez les instructions détaillées dans les liens suivants :
 
