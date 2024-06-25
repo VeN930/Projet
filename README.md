@@ -13,8 +13,8 @@ Python 3.11.8 (recommandation)
   - `lxml`
   - `paramiko`
 - Outils externes :
-  - `rustscan`
-  - `openvas`
+  - `rustscan 2.2.3` (recommandation)
+  - `OpenVAS 22.7.9` (recommandation)
 
 
 Dépendances Python
