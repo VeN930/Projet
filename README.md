@@ -60,8 +60,8 @@ Pour lancer la toolbox, exécutez simplement le main.py. RAPPEL : SI VOUS AVEZ I
 - Attaque par force brute SSH :
   - Assurez-vous que les fichiers NEED/user.txt et NEED/password.txt contiennent les noms d'utilisateur et mots de passe à tester.
   - 
- 
-  #### Problèmes courants et solutions
+
+ ## Problèmes courants et solutions
 
 - **Erreur d'installation de dépendances :** Vérifiez que vous utilisez la version recommandée de Python et de Kali Linux.
 - **Problèmes de connexion OpenVAS :** Assurez-vous que vos informations de configuration dans `ScanMachine.py` sont correctes et que le service OpenVAS est en cours d'exécution.
