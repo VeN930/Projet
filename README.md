@@ -72,8 +72,8 @@ python CODE/sshbrut.py
 ## Avertissement
 Utilisez ces outils uniquement sur des systèmes pour lesquels vous avez l'autorisation explicite de tester la sécurité. Toute utilisation non autorisée est illégale et contraire à l'éthique.
 
-Auteur
+## Auteur
 Benjamin GHAZANI
 
-Licence
+## Licence
 GNU General Public License v3.0
