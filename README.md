@@ -4,6 +4,7 @@ Ce projet contient une série d'outils pour effectuer des scans de sécurité, d
 ## Prérequis
 
 Kali Linux 024.1 (recommandation)
+
 Python 3.11.8 (recommandation)
 
 - Dépendances Python :
