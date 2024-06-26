@@ -1,5 +1,6 @@
-Toolbox Projet
-Ce projet contient une série d'outils pour effectuer des scans de sécurité, des attaques par force brute SSH, et générer des rapports PDF des résultats de scans. Ce guide vous expliquera comment installer et utiliser chaque script.
+#### Toolbox Projet
+
+Ce projet vous propose une toolbox qui vous propose plusieurs outils dans l'objectifs de vous aidez à la sécurisation de système d'information.
 
 ## Prérequis
 
@@ -19,9 +20,9 @@ Python 3.11.8 (recommandation)
 
 Dépendances Python
 Installez les bibliothèques Python nécessaires avec les commandes suivantes :
-pip install reportlab
-pip install gvm lxml
-pip install paramiko
+`pip install reportlab`
+`pip install gvm lxml`
+`pip install paramiko`
 
 - RustScan :
 Installez RustScan avec la commande suivante :
