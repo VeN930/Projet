@@ -20,11 +20,11 @@ Python 3.11.8 (recommandation)
 
 -Dépendances Python
  Installez les bibliothèques Python nécessaires avec les commandes suivantes :
-  - `pip install reportlab`
+  -- `pip install reportlab`
 
-  - `pip install gvm lxml`
+  -- `pip install gvm lxml`
 
-  - `pip install paramiko`
+  -- `pip install paramiko`
 
 - RustScan :
 Installez RustScan avec la commande suivante :
