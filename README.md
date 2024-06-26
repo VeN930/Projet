@@ -24,7 +24,7 @@ Python 3.11.8 (recommandation)
 
   - `pip install gvm lxml`
 
-  -`pip install paramiko`
+  - `pip install paramiko`
 
 - RustScan :
 Installez RustScan avec la commande suivante :
