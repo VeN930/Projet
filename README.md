@@ -1,6 +1,6 @@
 #### Toolbox Projet
 
-Ce projet vous propose une toolbox qui vous propose plusieurs outils dans l'objectifs de vous aidez à la sécurisation de système d'information.
+Ce projet met à disposition une toolbox qui vous propose plusieurs outils dans l'objectif de vous aidez à la sécurisation de système d'information.
 
 ## Prérequis
 
@@ -55,20 +55,20 @@ Pour lancer la toolbox, exécutez simplement le main.py. RAPPEL : SI VOUS AVEZ I
 ## Rappel pour les script ScanMachine et brute force SSH
 
 - Mettez à jour le fichier CODE/ScanMachine.py avec les informations de configuration nécessaires suivant si nécéssaire :
-  - "openvas_socket"
-  - "openvas_username"
-  - "openvas_password"
-  - "scanner_id"
+  - `openvas_socket`
+  - `openvas_username`
+  - `openvas_password`
+  - `scanner_id`
     
 
 - Attaque par force brute SSH :
-  - Assurez-vous que les fichiers NEED/user.txt et NEED/password.txt contiennent les noms d'utilisateur et mots de passe à tester.
-  - 
+  - Assurez-vous que les fichiers user.txt et password.txt contiennent les noms d'utilisateur et mots de passe à tester que vous voulez tester et qu'ils sont bien présent dans le dossier "NEED".
+    
 
  ## Problèmes courants et solutions
 
 - **Erreur d'installation de dépendances :** Vérifiez que vous utilisez la version recommandée de Python et de Kali Linux.
-- **Problèmes de connexion OpenVAS :** Assurez-vous que vos informations de configuration dans `ScanMachine.py` sont correctes et que le service OpenVAS est en cours d'exécution.
+- **Problèmes de connexion/erreur au lancement d'un scan OpenVAS :** Assurez-vous que vos informations de configuration dans `ScanMachine.py` sont correctes et que le service OpenVAS est en cours d'exécution.
 - **Échec des scans RustScan :** Vérifiez que RustScan est correctement installé et accessible depuis votre terminal.
 
 Pour toute autre question ou problème, veuillez consulter la documentation officielle des outils ou me contacter directement.
